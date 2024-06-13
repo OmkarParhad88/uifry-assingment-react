@@ -10,11 +10,15 @@ const Home = () => {
  return (
   <>
    <div className="home">
-    <Star animationDelay="1.5" starTop="6rem" starLeft="3rem"  />
-    <Star animationDelay="2" starTop="4rem" starRight="2rem"/>
+    <Star size="2.5rem" animationDelay="1.5" starTop="6rem" starLeft="3rem" />
+    <Star size="3rem" animationDelay="2" starTop="4rem" starRight="2rem" />
     <div className="home-left">
-         <p class="home-left-headline">make the best financial decisions</p>
-         <Ellipse ellipseTop={"10rem"} ellipseLeft={"16rem"} ellipseRotate ="190deg"/>
+     <p class="home-left-headline">make the best financial decisions</p>
+     <Ellipse
+      ellipseTop={"10rem"}
+      ellipseLeft={"16rem"}
+      ellipseRotate="190deg"
+     />
      <p class="home-left-paragraph">
       Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet
       faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.
@@ -55,6 +59,7 @@ const Home = () => {
        <span>Watch Video</span>
       </a>
      </div>
+
      <AchivementBanner />
     </div>
     <div className="home-right">
@@ -64,8 +69,8 @@ const Home = () => {
        ellipseLeft="0rem"
        ellipseRight="0rem"
        ellipseRotate="91deg"
-           />
-           <Mobiles mobileTop="3rem" mobileRight="30rem" />
+      />
+      <Mobiles mobileTop="3rem" mobileRight="30rem" />
      </Rings>
     </div>
    </div>

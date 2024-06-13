@@ -2,8 +2,10 @@ import "./Star.css";
 
 import React from "react";
 
-const Star = ({ animationDelay, starTop, starLeft, starRight, rotate }) => {
- const styles = {
+const Star = ({ animationDelay, starTop, starLeft, starRight, rotate , size}) => {
+  const styles = {
+    width: size,
+    height : size,
   top: starTop,
   left: starLeft,
   right: starRight,

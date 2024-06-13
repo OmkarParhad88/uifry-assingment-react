@@ -1,10 +1,12 @@
 import React from 'react'
 import './AchivementBanner.css'
+import Star from '../Star/Star';
 
-const AchivementBanner = () => {
+const AchivementBanner = ({children}) => {
   return (
    <>
     <div class="achivementBanner">
+     <Star size="2rem" animationDelay="2.5" starTop="3rem" starLeft="5rem" />
      <div class="rectangle-1">
       <span id="a">a</span>
       <span id="black-box"></span>
@@ -106,6 +108,8 @@ const AchivementBanner = () => {
        </p>
       </div>
      </div>
+
+     <Star size="3rem" animationDelay="2.5" starTop="7rem" starRight="-3rem" />
     </div>
    </>
   );
