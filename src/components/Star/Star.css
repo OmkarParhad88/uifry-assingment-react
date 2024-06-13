@@ -1,0 +1,29 @@
+#star {
+ position: absolute;
+ top: 0rem;
+ opacity: 0;
+ animation-delay: 1s;
+ animation-duration: 3s;
+ animation-name: zoom-in-out;
+ animation-iteration-count: infinite;
+ transform: rotate(4deg);
+ width: 4%;
+ height: 4rem;
+ z-index: -7;
+}
+
+@keyframes zoom-in-out {
+ 0% {
+  transform: scale(0.3) rotate(4deg);
+  opacity: 0;
+ }
+ 50% {
+  opacity: 1;
+  transform: scale(1) rotate(30deg);
+ }
+
+ 100% {
+  opacity: 0;
+  transform: scale(0.3) rotate(60deg);
+ }
+}

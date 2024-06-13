@@ -1,0 +1,27 @@
+.ellipse {
+ position: absolute;
+ top:0rem;
+ left: 0rem;
+ z-index: -8;
+ width: 17.75rem;
+ height: 9.5625rem;
+ 
+}
+
+.ellipse span {
+ position: absolute;
+ width: 17.75rem;
+ height: 9.5625rem;
+ border-radius: 17.75rem;
+ filter: blur(45px);
+ display: block;
+}
+.ellipse span:first-child {
+ background: #f55;
+}
+.ellipse span:last-child {
+   top: -5rem;
+  left: -3rem;
+ background: #fde598;
+ z-index: -9;
+}

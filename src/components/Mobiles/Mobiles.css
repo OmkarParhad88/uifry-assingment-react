@@ -1,0 +1,53 @@
+.mobiles {
+ width: auto;
+ height: auto;
+ position: absolute;
+ top: 0rem;
+ /* transform: scale(0); */
+ transition: transform 0.3s ease;
+}
+.mobiles:hover {
+  transform: scale(0.9);
+}
+
+.mob-position {
+ position: relative;
+ height: auto;
+ width: auto;
+}
+
+.mob-position img:first-child {
+ position: absolute;
+ top: 0rem;
+ right: -19.8rem;
+ width: 15.57788rem;
+ height: 31.52019rem;
+}
+
+.mob-position img:last-child {
+ position: absolute;
+top: 0.5rem;
+  right: -19rem;
+ border-radius: 2rem;
+ width: 13.96544rem;
+ height: 30.2175rem;
+ z-index: 1;
+}
+
+.mobile-1 {
+ top: 0rem;
+ right: 14rem;
+ transform: rotate(-15deg);
+}
+.mobile-2 {
+ top: 4rem;
+ right: 9rem;
+ transform: rotate(-15deg);
+ z-index: -1;
+}
+.mobile-3 {
+ top: 8rem;
+ right: 1rem;
+ transform: rotate(-15deg);
+ z-index: -3;
+}
