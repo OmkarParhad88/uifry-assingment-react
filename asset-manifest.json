@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/uifry-assingment-react/static/css/main.4244ff42.css",
+    "main.js": "/uifry-assingment-react/static/js/main.35340777.js",
+    "static/js/453.a8c31fa8.chunk.js": "/uifry-assingment-react/static/js/453.a8c31fa8.chunk.js",
+    "index.html": "/uifry-assingment-react/index.html",
+    "main.4244ff42.css.map": "/uifry-assingment-react/static/css/main.4244ff42.css.map",
+    "main.35340777.js.map": "/uifry-assingment-react/static/js/main.35340777.js.map",
+    "453.a8c31fa8.chunk.js.map": "/uifry-assingment-react/static/js/453.a8c31fa8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4244ff42.css",
+    "static/js/main.35340777.js"
+  ]
+}
